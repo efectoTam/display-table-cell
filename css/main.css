@@ -1,0 +1,67 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+
+/* completa tu codigo aqui */
+
+.box{
+	width: 100px;
+	height: 100px;
+	display: table-cell;
+	text-decoration: none;
+}
+
+.azul{
+	background-color: #7592C7;
+	color: #7592C7;
+}
+
+.celeste{
+	background-color: #ACEEE9;
+	color: #ACEEE9;
+}
+
+.naranjo{
+	background-color: #F9AF50;
+	color: #F9AF50;
+}
+
+.rosado{
+	background-color: #F280D0;
+	color: #F280D0;
+}
+
+.palabra{
+	width: 100px;
+	display: none;
+	margin-left: 100px;
+	background-color: black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+li{
+	display: block;
+	font-family: "dosis";
+}
+
+a:hover .palabra{
+	display: block;
+}
+
+li a span{
+	text-align: center;
+}
